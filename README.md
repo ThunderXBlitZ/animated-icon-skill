@@ -2,12 +2,15 @@
 
 A Claude Code skill for searching and integrating animated icons into web apps.
 
-**[Live Demo →](https://YOUR_USERNAME.github.io/animated-icon-skill/demo.html)**
+**[Live Demo →](https://thunderxblitz.github.io/animated-icon-skill/index.html)**
 
-## Install
+## Setup & Install
 
 ```bash
-cp -r animated-icon-skill ~/.claude/skills/
+git clone <repo>
+cd animated-icon-skill
+bash setup.sh          # or: npm run setup
+cp -r . ~/.claude/skills/animated-icon-skill
 ```
 
 ## Usage

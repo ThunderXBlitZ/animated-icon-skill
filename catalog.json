@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "generatedAt": "2026-03-19T15:13:41.737Z",
+  "generatedAt": "2026-03-20T03:11:30.782Z",
   "animations": [
     {
       "id": "activity",
@@ -423,7 +423,7 @@
     {
       "id": "mail",
       "name": "mail",
-      "category": "other",
+      "category": "communication",
       "path": "assets/useanimations/mail",
       "description": "Animated mail icon",
       "width": 32,
@@ -873,6 +873,7 @@
     }
   ],
   "categories": [
+    "communication",
     "interface",
     "media",
     "navigation",

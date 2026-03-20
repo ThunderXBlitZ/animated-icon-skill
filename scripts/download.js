@@ -50,7 +50,6 @@ async function download() {
   }
 
   console.log(`\nDone — ${ok}/${icons.length} icons saved to assets/useanimations/`);
-  console.log('Run: node scripts/generate-catalog.js to rebuild the catalog.');
 }
 
 download().catch(err => { console.error(err); process.exit(1); });
