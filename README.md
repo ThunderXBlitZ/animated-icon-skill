@@ -7,9 +7,9 @@ A Claude Code skill for searching and integrating animated icons into web apps.
 ## Setup & Install
 
 ```bash
-git clone <repo>
+git clone https://github.com/ThunderXBlitZ/animated-icon-skill.git
 cd animated-icon-skill
-bash setup.sh          # or: npm run setup
+bash setup.sh
 cp -r . ~/.claude/skills/animated-icon-skill
 ```
 
@@ -20,9 +20,8 @@ Just describe what you need in any Claude Code session:
 > "find me a lock animation"
 > "show all media icons"
 > "get the menu icon for React"
-
-Or explicitly:
-yes
+> "add this animated lock icon to my webapp"
+> "generate a React code snippet for this animated lock icon for my React webapp"
 ```
 /animated-icon-skill search lock
 /animated-icon-skill list --category interface
