@@ -1,0 +1,24 @@
+# Dependencies & build
+node_modules/
+dist/
+package.json
+package-lock.json
+tsconfig.json
+jest.config.js
+.npmignore
+
+# Animation assets (download via scripts/download.js)
+assets/
+
+# Dev files
+src/
+tests/
+docs/
+.downloadrc
+
+# Temp
+temp-repo/
+
+# macOS
+.DS_Store
+**/.DS_Store
